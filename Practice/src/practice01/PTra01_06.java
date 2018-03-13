@@ -16,6 +16,8 @@ public class PTra01_06 {
 
 
 		// ★ 変数 str の中身を出力してください
+		String name = "清宮七輝";
+		System.out.println(name);
 
 
 	}
