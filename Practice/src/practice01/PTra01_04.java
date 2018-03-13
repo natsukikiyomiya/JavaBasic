@@ -16,6 +16,9 @@ public class PTra01_04 {
 
 
 		// ★ 変数 f を出力してください
+		double f;
+		f = 3.14;
+	    System.out.println(f);
 
 
 	}
