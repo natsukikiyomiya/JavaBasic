@@ -22,7 +22,7 @@ public class PTra03_03 {
 		int num = Integer.parseInt(line);
 		//---------------------ここから本題-----------------------
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
-		if ((num + 1) % 3 == 1) {
+		if (num % 3 == 0) {
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");
