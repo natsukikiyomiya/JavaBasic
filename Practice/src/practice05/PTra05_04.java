@@ -24,14 +24,15 @@ public class PTra05_04 {
 
 		// ①
 		
-		boolean isUp = false;
-		 do{
+		boolean isUp = true;
+		while (isUp) {
 			System.out.println("0～6の整数を入力してください");
 
 		String line = scanner.nextLine();
 		int num = Integer.parseInt(line);
 		
 		isUp = num > 6;
+		
 		
 			switch (num) {
 			case 0:
@@ -56,6 +57,6 @@ public class PTra05_04 {
 				System.out.println("土曜");
 				break;
 			}
-		}while (isUp);
+		}
 	}
 }
