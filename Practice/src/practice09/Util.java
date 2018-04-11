@@ -4,7 +4,7 @@
  *------------------------------------------------------------
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
-package practice09.util;
+package practice09;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -19,6 +19,9 @@ import java.util.List;
  *
  */
 public class Util {
+	
+	public static final String dispMessageSlowly = null;
+
 	private Util() {
 		/* インスタンス化を禁止するため、private化 */
 	}
