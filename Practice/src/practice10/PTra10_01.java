@@ -21,16 +21,31 @@ public class PTra10_01 {
 	 * メソッド
 	 * 		なし
 	 */
+	public static class User {
+		int userId;
+		String userNm;
+		String mail;
+		String password;
+	}
 
 	public static void main(String[] args) {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
+		User us;
 
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-
-
+		us = new User();
+		us.userId =1007;
+		us.userNm = "清宮七輝";
+		us.mail = "natsuki10071007";
+		us.password = "natsuki";
+		
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-
+		 System.out.println(us.userId);
+		 System.out.println(us.userNm);
+		 System.out.println(us.mail);
+		 System.out.println(us.password);
 	}
 }
+
