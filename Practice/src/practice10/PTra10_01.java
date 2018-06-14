@@ -38,9 +38,9 @@ public class PTra10_01 {
 		us = new User();
 		us.userId =1007;
 		us.userNm = "清宮七輝";
-		us.mail = "natsuki10071007";
+		us.mail = "natsuki10071007@gmail.com";
 		us.password = "natsuki";
-		
+
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 		 System.out.println(us.userId);
 		 System.out.println(us.userNm);
